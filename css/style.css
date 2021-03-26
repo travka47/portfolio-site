@@ -56,3 +56,10 @@ body {
       border-radius: 30px;
       box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
   }
+
+  .hero__card_text {
+    width: 45%;
+    text-align: left;
+    line-height: 2;
+    font-size: 1.2vw;
+}
