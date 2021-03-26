@@ -36,6 +36,11 @@ body {
   color: white;
   margin-right: 1vw;
   margin-left: 1vw;
+  transition: all .3s ease-in-out;
+}
+
+.header__navbar_link:hover {
+  color: #7c6354;
 }
 
 .content {
@@ -58,10 +63,6 @@ body {
   margin-top: 3vh;
 }
 
-.content__card_mini {
-  width: 30%
-}
-
 .content__card_image {
   width: 50%;
   height: 100%;
@@ -78,6 +79,7 @@ body {
 
 .content__card_table {
   width: 100%;
+  height: 100%;
   line-height: 2;
   font-size: 1.2vw;
 }
@@ -109,11 +111,22 @@ body {
   margin-right: 1vw;
   border-radius: 30px;
   font-size: 1.4vw;
+  transition: all .5s ease-in-out;
+}
+
+.pins__card:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transform : scale(1.1);
 }
 
 .pins__card_image {
   width: 100%;
   height: 100%;
+}
+
+#drinks {
+  text-align: center;
+  height: 75vh;
 }
 
 .footer {
