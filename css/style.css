@@ -1,65 +1,69 @@
 body {
-    font-family: "Montserrat Alternates";
-    margin: 0;
-    background-color: #f7ece1;
-  }
-  
-  .header {
-    position: relative;
-    background-color: #a4b0f5;
-    height: 8vh;
-  }
-  
-  .header__title {
-    position: fixed;
-    left: 5vw;
-    top: 1vh;
-    font-family: "Abril Fatface";
-    font-size: 3vw;
-    color: white;
-  }
-  
-  .header__navbar {
-    position: absolute;
-    right: 5vw;
-    bottom: 0;
-  }
-  
-  .header__navbar_link {
-    text-decoration: none;
-    font-size: 2vw;
-    font-weight: 100;
-    color: white;
-    margin-right: 1vw;
-    margin-left: 1vw;
-  }
+  font-family: "Montserrat Alternates";
+  margin: 0;
+  background-color: #f7ece1;
+}
 
-  .content {
-    height: 95%;
-    background: linear-gradient(#a4b0f5, #f7ece1);
-    padding: 5vh 5vw;
-  }
-  
-  .content__card{
-      display: flex;
-      justify-content: space-between;
-      height: 75%;
-      background-color: rgba(255, 255, 255, 0.3);
-      border-radius: 30px;
-      box-shadow: 10px 10px 0 #7c635494;
-      padding: 2%; 
-  }
-  
-  .content__card_image{
-      width: 50%;
-      height: 100%;
-      border-radius: 30px;
-      box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
-  }
+.header {
+  position: relative;
+  background-color: #a4b0f5;
+  height: 8vh;
+}
 
-  .content__card_text {
-    width: 45%;
-    text-align: left;
-    line-height: 2;
-    font-size: 1.2vw;
+.header__title {
+  position: fixed;
+  left: 5vw;
+  top: 1vh;
+  font-family: "Abril Fatface";
+  font-size: 3vw;
+  color: white;
+}
+
+.header__navbar {
+  position: absolute;
+  right: 5vw;
+  bottom: 0;
+}
+
+.header__navbar_link {
+  text-decoration: none;
+  font-size: 2vw;
+  font-weight: 100;
+  color: white;
+  margin-right: 1vw;
+  margin-left: 1vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95%;
+  background: linear-gradient(#a4b0f5, #f7ece1);
+  padding: 5vh 5vw;
+}
+
+.content__card {
+  display: inherit;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 75%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  box-shadow: 10px 10px 0 #7c635494;
+  padding: 2%;
+}
+
+.content__card_image {
+  width: 50%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
+}
+
+.content__card_text {
+  width: 45%;
+  text-align: left;
+  line-height: 2;
+  font-size: 1.2vw;
 }
